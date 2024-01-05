@@ -1,0 +1,79 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mainTextTable {
+    color: #272A33;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px;
+}
+
+.iconTable {
+    background: #fff;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    padding: 10px;
+}
+
+.mainTable {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    border-top: 1px solid #EDEDF4;
+    border-right: 1px solid #EDEDF4;
+    border-left: 1px solid #EDEDF4;
+}
+
+.blockIcons {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.listText {
+    color: #6E7686;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.tablePagination {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.blockList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.butFilter {
+
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #A7B4CC;
+}
+
+.filterBlock {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.butFilter:active {
+    background: #13A3B9;
+}

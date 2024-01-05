@@ -1,0 +1,131 @@
+.main {
+    min-height: 747px;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.back {
+    margin-top: 80px;
+    color: #676A71;
+    margin-left: 10px;
+}
+
+.blockReturn {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.titleText {
+    color: #272A33;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 48px;
+}
+
+.saveButton {
+    padding: 16px 192px;
+    background: #13A3B9;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.saveButton:hover {
+    background: #6bd9ea;
+
+}
+
+.usefulAvto {
+    border: 1px solid #A7B4CC;
+    color: #676A71;
+    width: 430px;
+    height: 57px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: normal;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+
+.usefulAvto:hover {
+    background: #A7B4CC;
+}
+
+.registration {
+    text-decoration: none;
+    color: #272A33;
+    ;
+}
+
+.blockLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 430px;
+    height: 56px;
+    background-color: #F6F6F9;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #272A33;
+    padding-left: 18px;
+    box-sizing: border-box;
+
+
+}
+
+.blockInputPassword {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.showHideButton {
+    position: absolute;
+    border: none;
+    background: none;
+    cursor: pointer;
+    top: 75%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.showHideButton img {
+    width: 20px;
+}
+
+
+.inputText {
+    margin-top: 40px;
+    color: #6E7686;
+    font-size: 14px;
+
+}
+
+.input::placeholder {
+    color: #D4D7DB;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.blockInputLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

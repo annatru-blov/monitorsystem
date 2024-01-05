@@ -1,0 +1,205 @@
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.profileText {
+    color: #272A33;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.textData {
+    color: #272A33;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.line {
+    border-top: 1px solid #EDEDF4;
+}
+
+.inputBlockData {
+    display: grid;
+    grid-template-columns: repeat(2, [col] 1fr);
+    grid-template-rows: repeat(3, [row] 1fr);
+    row-gap: 30px;
+    column-gap: 20px;
+    margin-bottom: 40px;
+}
+
+.inputBlockContact {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.contactText {
+    color: #272A33;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+.saveButton {
+    background: #13A3B9;
+    color: #FFFFFF;
+    width: 270px;
+    height: 56px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+.saveButton:hover {
+    background: #6bd9ea;
+
+}
+.input {
+    width: 470px;
+    height: 56px;
+    background-color: #F6F6F9;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #272A33;
+    padding-left: 18px;
+    box-sizing: border-box;
+
+
+}
+
+.showHideButton {
+    position: absolute;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-left: -35px;
+    margin-top: 14px;
+}
+
+.inputText {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #A8AAAE;
+    position: relative;
+
+}
+
+.input::placeholder {
+    color: #D4D7DB;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.mainNav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.navRight {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.mainTextNav {
+    cursor: pointer;
+    color: #272A33;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.profileBlockData {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.block {
+    margin-top: 80px;
+}
+
+.imageCircle {
+    width: 48px;
+    height: 48px;
+    background: #C4C4C4;
+    border-radius: 50%;
+}
+
+.profileText {
+    color: #272A33;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.buttonActive {
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #EAFBF5;
+    color: #22B07D;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.buttonUser {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #13A3B9;
+}
+
+.blockNavTable {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.blockProfileNav {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.shopCard {
+    background: #fafafa;
+    box-shadow: 4px 5px 15px -7px #000;
+    list-style-type: none;
+    padding: 10px 0 0;
+    position: absolute;
+    right: 70px;
+    top: 70px;
+    width: 300px;
+    height: 100px;
+    z-index: 1000;
+    border-radius: 5px;
+  }
+  .linkMenuWindow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .linkText{
+    color: #13a3b9;
+    font-size: 20px;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  .linkText:hover{
+    color: #000;
+  }

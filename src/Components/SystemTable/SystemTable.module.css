@@ -1,0 +1,188 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.profileText {
+    color: #272A33;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.navList {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.tableMenu {
+    color: #6E7686;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.tableMenu:first-child {
+    border-bottom: 2px solid #13A3B9;
+    color: #13A3B9;
+}
+
+.inputMetadata {
+    width: 700px;
+    height: 61px;
+    border-width: 1px, 0px, 1px, 1px;
+    border-style: solid;
+    border-color: #EDEDF4;
+    color: #D4D7DB;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.textMetadata {
+
+    font-size: 18px;
+    color: #6E7686;
+
+}
+
+.blockNavTable {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 134px;
+}
+
+.blockProfileNav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mainNav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.navRight {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.mainTextNav {
+    cursor: pointer;
+    color: #272A33;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.wrapperTable {
+    background: #F9F9F9;
+}
+
+.blockTable {
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 134px;
+}
+
+.searchBut {
+    padding: 17px 15px;
+    border-radius: 0px 10px 10px 0px;
+    background: #13A3B9;
+}
+
+.blockSearch {
+    display: flex;
+    flex-direction: row;
+}
+
+.listLook {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #6E7686;
+    color: #6E7686;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.addBut {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #13A3B9;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.blockButton {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.blockInputSearch {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputSearch {
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.searchButtonClose {
+    cursor: pointer;
+}
+
+.imageCircle {
+    width: 48px;
+    height: 48px;
+    background: #C4C4C4;
+    border-radius: 50%;
+}
+.shopCard {
+    background: #fafafa;
+    box-shadow: 4px 5px 15px -7px #000;
+    list-style-type: none;
+    padding: 10px 0 0;
+    position: absolute;
+    right: 70px;
+    top: 70px;
+    width: 300px;
+    height: 100px;
+    z-index: 1000;
+    border-radius: 5px;
+  }
+  .linkMenuWindow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .linkText{
+    color: #13a3b9;
+    font-size: 20px;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  .linkText:hover{
+    color: #000;
+  }

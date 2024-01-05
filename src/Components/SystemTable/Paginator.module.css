@@ -1,0 +1,15 @@
+.selectedPage {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 2px;
+    background: #13A3B9;
+}
+
+.paginator {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 31px;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.input {
+    width: 470px;
+    height: 56px;
+    background-color: #F6F6F9;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #272A33;
+    padding-left: 18px;
+    box-sizing: border-box;
+
+}
+
+.inputText {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #A8AAAE;
+
+}
+
+.inputClosed {
+    background: url(./../../assets/images/eye-slash.png) no-repeat right #F6F6F9;
+    background-position: 95% 50%;
+}

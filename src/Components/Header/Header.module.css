@@ -1,0 +1,70 @@
+.header {
+    min-height: 80px;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 205px;
+    justify-content: center;
+}
+
+.navHeader {
+    list-style-type: none;
+}
+
+.sign {
+    font-size: 16px;
+}
+
+.navHeader {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.menuBlock {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.liHeader {
+    font-size: 16px;
+    color: #6E7686;
+    cursor: pointer;
+}
+
+.bell {
+    width: 14px;
+}
+
+.signText {
+    color: #6E7686;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.menuProfileTable {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

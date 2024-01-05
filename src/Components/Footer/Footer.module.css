@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Michroma&family=Montserrat:wght@300;600&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap');
+
+.footer {
+    min-height: 570px;
+
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.blockInfo {
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    margin-left: 135px;
+    margin-right: 276px;
+    margin-bottom: 40px;
+}
+
+.textFooter {
+    font-size: 20px;
+    font-weight: 700px;
+    color: #272A33;
+}
+
+.blockLogo {
+    margin-right: 127px;
+}
+
+.blockSupport {
+    width: 251px;
+    margin-right: 152px;
+}
+
+.textNumber {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #676A71;
+}
+
+.helpper {
+    margin-top: 10px;
+    color: #13A3B9;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.blockSlide {
+    border-top: 1px solid #EDEDF4;
+    margin-left: 135px;
+    border-bottom: 1px solid #EDEDF4;
+
+}
+
+.bankBlock {
+    margin: 40px 0;
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.finalText {
+    font-weight: 500;
+    font-size: 14px;
+    color: #A7B4CC;
+    margin-bottom: 96px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.buttonFooter {
+    color: #A8AAAE;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
